@@ -1,1 +1,38 @@
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+$basefull: rgba(46, 204, 113,1.0);
+$basehalf: rgba(46, 204, 113,0.5); 
+$light-white: rgba(236,240,231,1.0);
+$gray: rgba(44, 62, 80,1.0);
+$light-gray: rgba(236, 240, 241,1.0);
+$white: #fff;
+
+$font-family-sans-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$navbar-default-bg: $white;
+$navbar-default-brand-color:$basefull;
+$navbar-default-brand-hover-color: $white;
+$navbar-default-brand-hover-bg: rgba(39, 174, 96,1.0);
+
+$navbar-default-link-color: $gray;
+$navbar-default-link-hover-color: $white;
+$navbar-default-link-hover-bg: rgba(39, 174, 96,1.0);
+
+$body-bg: $light-gray;
+$brand-primary: $basefull;
+$jumbotron-bg: $white;
+
+#about {
+	background: $white;
+}
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
 @import 'bootstrap';
