@@ -57,4 +57,6 @@ group :production do
 
 end
 
+gem 'devise', '~> 3.4.0'
+
 
