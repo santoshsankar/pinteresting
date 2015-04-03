@@ -3,7 +3,9 @@
 	<h1>Welcome to Travista</h1>
 	<h2>Curating and Collecting Our Travel Memories</h2>
 	<% if user_signed_in? %>
-  	# do something
+  	<p>
+  		Welcome back <%= @email %>!
+  	</p>
   <% else %>
   	<p>
 			<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>
