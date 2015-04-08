@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Travista</a>
+      <a class="navbar-brand" href="/">Travista</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,10 +17,12 @@
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
         <% if user_signed_in? %> 
-          <li><%= link_to 'New Pin', new_pin_path %></li>
           <li><%= link_to "Account Settings", edit_user_registration_path %></li>
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
+              <%= link_to new_pin_path, class: "btn btn-default btn-md" do %>
+                <span class="glyphicon glyphicon-plus"></span> New Memory
+              <% end %>
               <%= link_to "Log Out", destroy_user_session_path, method: :delete , class: "btn btn-primary btn-md" %>
             </div>
           </form>
