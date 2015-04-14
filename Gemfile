@@ -66,3 +66,9 @@ gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '<2.0'
 
 gem 'masonry-rails', '~> 0.2.0'
+
+# Pagination gem
+gem 'will_paginate', '~> 3.0.5'
+
+# Bootstrap pagination gem
+gem 'will_paginate-bootstrap'
